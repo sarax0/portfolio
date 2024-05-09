@@ -1,2 +1,1 @@
-# Sara's Data Science Portfolio 
-Check my latest data science projects
+# Check my latest data science projects
