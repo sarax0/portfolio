@@ -1,8 +1,4 @@
-# Data Scientist
-Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+Sara Abdelazim's data science and data analysis portfolio project
+Based on a Minimal Jekyll theme for GitHub Pages [1].
 
-# Education
-M.S., Computer Engineering | The University of Ottawa (December 2019)
-B.S., Medical Informatics | Beni Suef University (May 2017)
-
-# Work Experience
+[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
