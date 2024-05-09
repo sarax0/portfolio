@@ -1,2 +1,8 @@
-# sara-abdelazim.github.io
-I'm Sara Abdelazim, and this is my portfolio. My expertise in AI, ML, and BI, combined with my passion for tackling complex data challenges, makes me a strong fit for a data-driven environment.
+# Data Scientist
+Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+
+# Education
+M.S., Computer Engineering | The University of Ottawa (December 2019)
+B.S., Medical Informatics | Beni Suef University (May 2017)
+
+# Work Experience
