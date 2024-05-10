@@ -15,8 +15,9 @@ Text deepfak detection is the automated task of determining whether a piece of t
 
 This project utilizes Support Vector Machine (SVM) and Decision Tree models to predict patient no-shows in a large medical center. The objective is to optimize appointment scheduling, resource allocation, and enhance efficiency in patient care delivery.
 
-[View code on GitHub](https://github.com/sarax0/clinic-no-show-prediction)
+[![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio&color=a03fc0&labelColor=393939&logoColor=white
+)](#) [![](https://img.shields.io/badge/machine_learning-svm-blue)](#) [![](https://img.shields.io/badge/machine_learning-decision_tree-darkgreen)](#) [![](https://img.shields.io/badge/healthcare-lightblue)](#)
 
-### Forecasting Patient No-Shows: A Predictive Approach to Enhance Appointment Scheduling Efficiency in a Large Medical Center
+[View code on GitHub](https://github.com/sarax0/clinic-no-show-prediction)
 
 ---
