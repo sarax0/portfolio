@@ -6,11 +6,9 @@
 Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
 
 <div>
-   <img src="assets/img/Overview.png" alt="Description of the image" width="19%">
-   <img src="assets/img/Products.png" alt="Description of the image" width="19%">
-   <img src="assets/img/Customers.png" alt="Description of the image" width="19%">
-   <img src="assets/img/Promotion.png" alt="Description of the image" width="19%">
-   <img src="assets/img/Currency.png" alt="Description of the image" width="19%">
+   <img src="assets/img/Overview.png" alt="Description of the image" width="30%">
+   <img src="assets/img/Products.png" alt="Description of the image" width="30%">
+   <img src="assets/img/Customers.png" alt="Description of the image" width="30%">
 </div>
 
 [![](https://img.shields.io/badge/Tableau-white?logo=tableau)](#)
@@ -25,8 +23,8 @@ Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth 
 
 Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
 <div>
-   <img src="assets/img/Adventureworks_page1.jpg" alt="Description of the image" width="19%">
-   <img src="assets/img/Adventureworks_page2.jpg" alt="Description of the image" width="19%">
+   <img src="assets/img/Adventureworks_page1.jpg" alt="Description of the image" width="30%">
+   <img src="assets/img/Adventureworks_page2.jpg" alt="Description of the image" width="30%">
 </div>
 
 
