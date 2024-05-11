@@ -40,7 +40,7 @@ In this project I employed NLP techniques, including sentiment analysis and Mult
 
 <img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" width= "50%" />
 
-[![](https://img.shields.io/badge/MSBI_SSIS-white?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-white?logo=visualstudio)](#)
+[![](https://img.shields.io/badge/MSBI_SSIS-blue?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
 
 
 [View project on GitHub](https://github.com/sarax0/SSIS-ETL-for-ITI-Data)
