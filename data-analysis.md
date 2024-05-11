@@ -3,7 +3,7 @@
 
 ### Analyzing Sales Trends and Patterns Using Tableau
 
-Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
+I created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
 
 <div>
    <img src="assets/img/Overview.png" alt="Description of the image" width="30%">
@@ -20,12 +20,11 @@ Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth 
 
 ### AdventureWorks Sales Insights: Power BI Analysis
 
-Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
+In this project I delved into AdventureWorks cycling e-commerce sales data for real-time insights.
 <div>
    <img src="assets/img/Adventureworks_page1.jpg" alt="Description of the image" width="35%">
    <img src="assets/img/Adventureworks_page2.jpg" alt="Description of the image" width="35%">
 </div>
-
 
 [![](https://img.shields.io/badge/PowerBI-white?logo=powerbi)](#) [![](https://img.shields.io/badge/SQL-gray?logo=microsoftsqlserver
 )](#)
@@ -36,21 +35,20 @@ Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
 
 ### Streamlining ITI Data: SSIS ETL Integration
 
-In this project I employed NLP techniques, including sentiment analysis and Multinomial Naive Bayes classification, to analyze drug reviews. EDA revealed trends like top conditions and drugs. Text preprocessing involved cleaning, tokenization, stop word removal, named entity recognition, and lemmatization.
+In this project I engage in diverse SSIS exercises, emphasizing ETL processes to integrate ITI data effectively. This dataset encompasses student records, course details, departmental data, and instructor profiles. 
 
-<img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" width= "50%" />
+<img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" width= "70%" />
 
 [![](https://img.shields.io/badge/MSBI_SSIS-blue?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
-
 
 [View project on GitHub](https://github.com/sarax0/SSIS-ETL-for-ITI-Data)
 
 ---
 
-### Predicting DDoS Attacks: Uncovering Patterns, Enhancing Models
+### Sales Insights: Analyzing Data with Microsoft Analysis Services (SSAS)
 
-This project delved into predicting Distributed Denial of Service (DDoS) attacks through comprehensive Exploratory Data Analysis (EDA) to discern data patterns and trends. Two models were developed and evaluated: a baseline Linear Discriminant Analysis (LDA) model with hyperparameter tuning using GridSearch, and Random Forest Classifier aimed at robust attack classification.
+I adeptly handle diverse Multidimensional Expressions (MDX) queries. This lab highlights my expertise in crafting cubes, dimensions, and MDX queries, enabling precise extraction of insights from sales data.
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+[![](https://img.shields.io/badge/MSBI_SSAS-blue?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
 
-[View code on GitHub](https://github.com/sarax0/ddos-attack-detection)
+[View project on GitHub](https://github.com/sarax0/SSAS-MDX-Sales-Data)
