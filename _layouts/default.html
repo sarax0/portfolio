@@ -20,7 +20,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" />
         {% endif %}
         
-        <p style:"margin: 0 0 5px;">{{ site.description | default: site.github.project_tagline }}</p>
+        <p style:"margin: 0 0 7px;">{{ site.description | default: site.github.project_tagline }}</p>
         
         {% comment %}
           {% if site.github.is_project_page %}
@@ -56,9 +56,10 @@
       </section>
       <footer style="bottom: 2px;">
         {% if site.github.is_project_page %}
-        <p style:"margin: 0 0 2px;">This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p style:"margin: 0 0 2px 0;">This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p style:"margin: 0 0 2px;"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        
+        <p style:"margin: 0 0 2px 0;"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
