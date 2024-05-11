@@ -11,3 +11,11 @@ google_analytics: G-PF0MPLX57P #UA-000000-0 # your Google Analytics tracking ID 
 
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+
+minima:
+  font_size: 16px
+  line_height: 1.5
+  content_width: 1024px
+  image_width: 1024px
+  sidebar_width: 320px
