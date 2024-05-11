@@ -13,7 +13,8 @@ Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth 
 
 [![](https://img.shields.io/badge/Tableau-white?logo=tableau)](#)
 
-[View dashboard on Tableau](https://public.tableau.com/views/InternetSales2019Tableua/InternetSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link) | [View project on GitHub](https://github.com/sarax0/sales-analysis-tableau)
+[View dashboard on Tableau](https://public.tableau.com/views/InternetSales2019Tableua/InternetSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+<br> [View project on GitHub](https://github.com/sarax0/sales-analysis-tableau)
 
 ---
 
