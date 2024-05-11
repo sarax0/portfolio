@@ -1,29 +1,32 @@
 ## Selected projects in data analysis and data visualization 
 ---
 
-### Analyzing Sales Trends and Patterns Using Tableau: A Data-Driven Exploration
+### Analyzing Sales Trends and Patterns Using Tableau
 
-Text deepfak detection is the automated task of determining whether a piece of text contains  artificially generated content. In this project, I utilized PyTorch to fine-tune BERT and Ro-BERT models for English text, AraBERT for Arabic text, and Multilingual BERT for multilingual capabilities.
-<video width="600" height="225" controls poster="assets/img/GP Demo Thumbnail.png" >
-    <source src="assets/video/GP Demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#) [![](https://img.shields.io/badge/MongoDB-white?logo=mongodb)](#) [![](https://img.shields.io/badge/Streamlit-white?logo=streamlit
-)](#) 
+<div>
+   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/32962488-71a8-4ccd-ac9a-a41547351a57" alt="Description of the image" width="20%">
+   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/518e140c-1f07-47fd-be99-7634041ef582" alt="Description of the image" width="20%">
+   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/f5350bbe-2070-4d60-a438-d6961cc826b5" alt="Description of the image" width="20%">
+   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/636f3d9a-0933-46f2-9dfe-b576f9e061ae" alt="Description of the image" width="20%">
+   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/b1c8894b-4d6b-4935-bb07-c2633641bf22" alt="Description of the image" width="20%">
+</div>
 
-[View code on GitHub](https://github.com/NasserMohamedEid/Text-AI-Detection)
+[![](https://img.shields.io/badge/Tableau-white?logo=tableau)](#)
+
+[View dashboard on Tableau](https://public.tableau.com/views/InternetSales2019Tableua/InternetSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+[View project on GitHub](https://github.com/sarax0/sales-analysis-tableau)
 
 ---
 
-### Predicting Patient No-Shows: Enhancing Appointment Scheduling Efficiency 
+### AdventureWorks Sales Insights: Power BI Analysis
 
-This project utilizes Support Vector Machine (SVM) and Decision Tree models to predict patient no-shows in a large medical center. The objective is to optimize appointment scheduling, resource allocation, and enhance efficiency in patient care delivery.
+Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
+[![](https://img.shields.io/badge/PowerBI-white?logo=powerbi)](#) [![](https://img.shields.io/badge/SQL-gray?logo=microsoftsqlserver
+)](#)
 
-[![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio&color=a03fc0&labelColor=393939&logoColor=white
-)](#) [![](https://img.shields.io/badge/machine_learning-svm-blue)](#) [![](https://img.shields.io/badge/machine_learning-decision_tree-darkgreen)](#) [![](https://img.shields.io/badge/healthcare-navy)](#)
-
-[View code on GitHub](https://github.com/sarax0/clinic-no-show-prediction)
+[View project on GitHub](https://github.com/sarax0/clinic-no-show-prediction)
 
 ---
 
