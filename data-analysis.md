@@ -37,9 +37,9 @@ Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
 
 In this project I employed NLP techniques, including sentiment analysis and Multinomial Naive Bayes classification, to analyze drug reviews. EDA revealed trends like top conditions and drugs. Text preprocessing involved cleaning, tokenization, stop word removal, named entity recognition, and lemmatization.
 
-<img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" style="width: 100%; height: 60%;" />
+<img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" width= "50%" />
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/machine_learning-MultinomialNB-blue)](#) [![](https://img.shields.io/badge/Exploratory_Data_Analysis_(EDA)-white)](#) 
+[![](https://img.shields.io/badge/MSBI_SSIS-white?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-white?logo=visualstudio)](#)
 
 
 [View project on GitHub](https://github.com/sarax0/SSIS-ETL-for-ITI-Data)
