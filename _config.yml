@@ -2,13 +2,14 @@ title: Sara Abdelazim
 logo: "/assets/img/SaraCircleResize.png"
 description: > 
   <div style="text-align: center;">
-    <br>
     Data Scientist / Data Analyst with master's degree in Data Science and AI from Ottawa University.
     <br>
   </div>
   <a href="https://www.linkedin.com/in/sara-motamed/">View my LinkedIn Profile</a> 
   <br>
   <a href="https://sarax0.github.io/portfolio/data-science">My Data Science Portfolio</a>
+  <br>
+  <a href="https://sarax0.github.io/portfolio/data-analysis">My Data Analysis Portfolio</a>
 google_analytics: G-PF0MPLX57P #UA-000000-0 # your Google Analytics tracking ID here
 
 #show_downloads: true
