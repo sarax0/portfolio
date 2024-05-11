@@ -1,7 +1,7 @@
 ## Skill Set 
 Technical Skills: Python, R, C#, SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB, Power BI, Tableau, Microsoft Excel
 
-----
+---
 
 ## Education
 Master of Computer Engineering | Data Science and Artificial Intelligence,	Feb 2023 – Feb 2024
