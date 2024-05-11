@@ -6,16 +6,17 @@
 Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
 
 <div>
-   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/32962488-71a8-4ccd-ac9a-a41547351a57" alt="Description of the image" width="19%">
-   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/518e140c-1f07-47fd-be99-7634041ef582" alt="Description of the image" width="19%">
-   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/f5350bbe-2070-4d60-a438-d6961cc826b5" alt="Description of the image" width="19%">
-   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/636f3d9a-0933-46f2-9dfe-b576f9e061ae" alt="Description of the image" width="19%">
-   <img src="https://github.com/sarax0/sales-analysis-tableau/assets/122404545/b1c8894b-4d6b-4935-bb07-c2633641bf22" alt="Description of the image" width="19%">
+   <img src="assets/img/Overview.png" alt="Description of the image" width="19%">
+   <img src="assets/img/Products.png" alt="Description of the image" width="19%">
+   <img src="assets/img/Customers.png" alt="Description of the image" width="19%">
+   <img src="assets/img/Promotion.png" alt="Description of the image" width="19%">
+   <img src="assets/img/Currency.png" alt="Description of the image" width="19%">
 </div>
 
 [![](https://img.shields.io/badge/Tableau-white?logo=tableau)](#)
 
 [View dashboard on Tableau](https://public.tableau.com/views/InternetSales2019Tableua/InternetSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+
 [View project on GitHub](https://github.com/sarax0/sales-analysis-tableau)
 
 ---
@@ -23,10 +24,16 @@ Created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth 
 ### AdventureWorks Sales Insights: Power BI Analysis
 
 Delved into AdventureWorks cycling e-commerce sales data for real-time insights.
+<div>
+   <img src="assets/img/Adventureworks_page1.jpg" alt="Description of the image" width="19%">
+   <img src="assets/img/Adventureworks_page2.jpg" alt="Description of the image" width="19%">
+</div>
+
+
 [![](https://img.shields.io/badge/PowerBI-white?logo=powerbi)](#) [![](https://img.shields.io/badge/SQL-gray?logo=microsoftsqlserver
 )](#)
 
-[View project on GitHub](https://github.com/sarax0/clinic-no-show-prediction)
+[View project on GitHub](https://github.com/sarax0/adventureworks-sales-analysis-powerbi)
 
 ---
 
