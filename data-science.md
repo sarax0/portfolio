@@ -4,8 +4,7 @@
 ### Deep NLP for text deepfak detection
 
 Text deepfak detection is the automated task of determining whether a piece of text contains  artificially generated content. In this project, I utilized PyTorch to fine-tune BERT and Ro-BERT models for English text, AraBERT for Arabic text, and Multilingual BERT for multilingual capabilities.
-
-<video width="600" height="240" controls poster="assets/img/GP Demo Thumbnail.png" >
+<video width="600" height="230" controls poster="assets/img/GP Demo Thumbnail.png" >
     <source src="assets/video/GP Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
