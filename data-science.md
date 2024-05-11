@@ -44,7 +44,7 @@ In this project I employed NLP techniques, including sentiment analysis and Mult
 
 This project delved into predicting Distributed Denial of Service (DDoS) attacks through comprehensive Exploratory Data Analysis (EDA) to discern data patterns and trends. Two models were developed and evaluated: a baseline Linear Discriminant Analysis (LDA) model with hyperparameter tuning using GridSearch, and Random Forest Classifier aimed at robust attack classification.
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/machine_learning-Linear_Discriminant_Analysis_(LDA)-red)](#) [![](https://img.shields.io/badge/machine_learning-random_forest-forestgreen)](#)
 
 [View code on GitHub](https://github.com/sarax0/ddos-attack-detection)
 
