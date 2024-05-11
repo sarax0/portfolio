@@ -1,8 +1,23 @@
-# Skill set 
-Technical Skills: Python, R, SQL, MSBI, PySpark
+## Skill Set 
+Technical Skills: Python, R, C#, SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB, Power BI, Tableau, Microsoft Excel
+---
+## Education
+Master of Computer Engineering | Data Science and Artificial Intelligence,	Feb 2023 – Feb 2024
+*University of Ottawa*
+Intensive Code Camp / Business Intelligence,	Nov 2022 – Mar 2023
+*Information Technology Institute (ITI)*
+Bachelor of Computer Science and Artificial Intelligence / Medical Informatics, 	Oct 2018 – Jun 2022
+*Beni Suef University*
+---
+## Work Experienc
+NLP Engineer, Wakeb Data, Oct 2023 – Feb 2024
+Developed an AI system for text deepfake detection. 
+---
+## Relevant Coursework 
+Understanding Cloud Computing, DataCamp 	2023
+Introduction to R, DataCamp 	2023
+Introduction to Power BI, DataCamp 	2023
+Introduction to Natural Language Processing in Python DataCamp 	2023
+Communicating Data Insights, DataCamp 	2023
+Introduction to Deep Learning with Keras, DataCamp	2023
 
-# Education
-M.S., Computer Engineering | The University of Ottawa (December 2019)
-B.S., Medical Informatics | Beni Suef University (May 2017)
-
-# Work Experienc
