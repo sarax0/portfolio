@@ -1,6 +1,7 @@
 ## Skill Set 
-Technical Skills: Python, R, C#, SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB, Power BI, Tableau, Microsoft Excel
-
+- Python, R, C#
+- SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB
+- Power BI, Tableau, Microsoft Excel
 ---
 
 ## Education
