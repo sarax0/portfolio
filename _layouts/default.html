@@ -20,9 +20,9 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" />
         {% endif %}
         
-        {% comment %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p style:"margin: 0 0 5px;">{{ site.description | default: site.github.project_tagline }}</p>
         
+        {% comment %}
           {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
           {% endif %}
