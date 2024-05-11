@@ -2,6 +2,7 @@
 - Python, R, C#
 - SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB
 - Power BI, Tableau, Microsoft Excel
+  
 ---
 
 ## Education
