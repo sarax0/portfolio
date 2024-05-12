@@ -1,6 +1,7 @@
 ## Selected projects in data analysis and data visualization 
 ---
-
+<a href="https://drive.google.com/file/d/1PCh9x7s0ldE6P7bPeKNAJUxd1HLyaSKU/view?usp=sharing" target="_blank">View my Resume!</a>
+---
 ### Analyzing Sales Trends and Patterns Using Tableau
 
 I created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
