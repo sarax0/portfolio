@@ -49,6 +49,6 @@ In this project I engage in diverse SSIS exercises, emphasizing ETL processes to
 
 I adeptly handle diverse Multidimensional Expressions (MDX) queries. This lab highlights my expertise in crafting cubes, dimensions, and MDX queries, enabling precise extraction of insights from sales data.
 
-[![](https://img.shields.io/badge/MSBI_SSAS-blue?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
+[![](https://img.shields.io/badge/MSBI_SSAS-azure?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
 
 [View project on GitHub](https://github.com/sarax0/SSAS-MDX-Sales-Data)
