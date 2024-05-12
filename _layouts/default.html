@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+     <!-- Google tag (gtag.js) -->
+    {% if site.gtag  %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.gtag }}');
+    </script>
+    {% endif  %}
+     <!-- End of Google tag (gtag.js) -->
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +22,7 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    <!-- Google tag (gtag.js) -->
-    {% include head-custom.html %}
-     <!-- End of Google tag (gtag.js) -->
+   
   
   </head>
   
