@@ -4,9 +4,10 @@ description: >
   <div style="text-align: center;">
     Data Scientist / Data Analyst <br>MEng in Data Science and AI from Ottawa University.
     <br>
-    <div class="row" style="justify-content: center; text-align: center;width: 100%;">
-      <div class="column" style="float: left;width: 30%;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
-      <div class="column" style="float: left;width: 30%;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
+    <a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a> | <a href="{{ site.github.owner_url }}">GitHub</a>
+    <div class="row" style="width: 100%;"> 
+      <div class="column" style="float: left; width: 30%; text-align: center;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
+      <div class="column" style="float: left;width: 30%; text-align: center;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
     </div>
   </div>
   <br><br>
