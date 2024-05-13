@@ -4,14 +4,15 @@ description: >
   <div style="text-align: center;">
     Data Scientist / Data Analyst <br>MEng in Data Science and AI from Ottawa University.
     <br><br>
+    <div class="row" style="text-align: center;">
+      <div class="column" style="float: left;width: 50%;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
+      <div class="column" style="float: left;width: 50%;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
+    </div>
   </div>
   
   <p style="margin: 0 0 6px 0;"> <a href="https://sarax0.github.io/portfolio/data-science" >Data Science Portfolio</a></p>
   <p style="margin: 0 0 10px 0;"><a href="https://sarax0.github.io/portfolio/data-analysis">Data Analysis Portfolio</a></p>
-  <div class="row" style="text-align: center;">
-    <div class="column" style="float: left;width: 50%;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
-    <div class="column" style="float: left;width: 50%;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
-  </div>
+  
   
 gtag: G-F9Z231F2G2 # Google Analytics tracking ID 
 #show_downloads: true
