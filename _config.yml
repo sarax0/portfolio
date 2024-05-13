@@ -3,10 +3,10 @@ logo: "/assets/img/SaraCircleResize.png?raw=true"
 description: > 
   <div style="text-align: center;">
     Data Scientist / Data Analyst <br>MEng in Data Science and AI from Ottawa University.
-    <br><br>
-    <div class="row" style="text-align: center;">
-      <div class="column" style="float: left;width: 50%;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
-      <div class="column" style="float: left;width: 50%;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
+    <br>
+    <div class="row" style="text-align: center;width: 70%;">
+      <div class="column" style="float: left;width: 30%;"><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a></div>
+      <div class="column" style="float: left;width: 30%;"><a href="{{ site.github.owner_url }}">GitHub</a></div>
     </div>
   </div>
   
