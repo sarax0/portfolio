@@ -5,13 +5,13 @@ description: >
     Data Scientist / Data Analyst <br>MEng in Data Science and AI from Ottawa University.
     <br><br>
   </div>
-  <a href="https://sarax0.github.io/portfolio/data-science">View My Data Science Portfolio</a>
+  <p><a href="https://sarax0.github.io/portfolio/data-science">View My Data Science Portfolio</a></p>
   <br>
-  <a href="https://sarax0.github.io/portfolio/data-analysis">View My Data Analysis Portfolio</a>
+  <p><a href="https://sarax0.github.io/portfolio/data-analysis">View My Data Analysis Portfolio</a></p>
   <br><br>
-  <a href="https://www.linkedin.com/in/sara-motamed/" target="_blank" >View My LinkedIn Profile</a> 
+  <p><a href="https://www.linkedin.com/in/sara-motamed/" target="_blank" >View My LinkedIn Profile</a></p> 
   <br>  
-  <a href="{{ site.github.owner_url }}">View My GitHub Profile</a>
+  <p><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
   
 gtag: G-F9Z231F2G2 # Google Analytics tracking ID 
 #show_downloads: true
