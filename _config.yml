@@ -6,9 +6,8 @@ description: >
     <br>
     <a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a>  |  <a href="{{ site.github.owner_url }}">GitHub</a>
   </div>
-  <br><br>
-  <p style="margin: 0 0 6px 0;"> <a href="https://sarax0.github.io/portfolio/data-science" >Data Science Portfolio</a></p>
-  <p style="margin: 0 0 12px 0;"><a href="https://sarax0.github.io/portfolio/data-analysis">Data Analysis Portfolio</a></p>
+  <p style="margin: 15px 0 6px 0;text-align: center;"> <a href="https://sarax0.github.io/portfolio/data-science" >Data Science Portfolio</a></p>
+  <p style="margin: 0 0 12px 0;text-align: center;"><a href="https://sarax0.github.io/portfolio/data-analysis">Data Analysis Portfolio</a></p>
   
 gtag: G-F9Z231F2G2 # Google Analytics tracking ID 
 #show_downloads: true
