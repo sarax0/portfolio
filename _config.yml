@@ -8,8 +8,8 @@ description: >
   <p style="margin: 0 0 2px 0;"><a href="https://sarax0.github.io/portfolio/data-science">View My Data Science Portfolio</a></p>
   <p style="margin: 0 0 5px 0;"><a href="https://sarax0.github.io/portfolio/data-analysis">View My Data Analysis Portfolio</a></p>
   <p style="margin: 0 0 2px 0;">
-    <a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn Profile</a>
-    <a href="{{ site.github.owner_url }}">  GitHub Profile</a>
+    <a href="https://www.linkedin.com/in/sara-motamed/" target="_blank"> LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{ site.github.owner_url }}">GitHub</a>
   </p>  
   <p style="margin: 0 0 2px 0;"></p>
   
