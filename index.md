@@ -1,5 +1,5 @@
 ---
-tab_title: "Portfolio"
+tab_title: Portfolio
 ---
 
 ## Skill Set 
