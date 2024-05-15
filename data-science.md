@@ -2,6 +2,10 @@
 
 ---
 -->
+---
+title: Data Science
+---
+
 ## Selected projects in data science, machine learning and NLP
 ---
 
