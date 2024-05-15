@@ -65,3 +65,5 @@ In this project, I explore Seattle's bicycle traffic using Python. By analyzing 
 <img src="https://github.com/sarax0/portfolio/assets/122404545/ed85e4ec-ae70-415d-b03b-f8c495a42d45" alt="Time Series-Fremont Bridge" width= "70%" />
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Kaggle-white?logo=Kaggle)](#) [![](https://img.shields.io/badge/Time_Series-white)](#)  [![](https://img.shields.io/badge/Data_Visualization-white)](#) 
+
+[View project on GitHub](https://github.com/sarax0/fremont-bridge-time-series-analysis)
