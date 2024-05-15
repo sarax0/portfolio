@@ -23,8 +23,8 @@
 ---
 
 ## TRAINING
-- Internet Of Things (IOT) Training| ITI, 15 Sep 2021- 20 Sep 2021, Egypt
-- Beni Suef University (BSU) Hospital System Analysis| Mar 2021 - Jul 2021, Egypt
+- Internet Of Things (IOT) Training | ITI, 15 Sep 2021- 20 Sep 2021, Egypt
+- Beni Suef University (BSU) Hospital System Analysis | Mar 2021 - Jul 2021, Egypt
 <br>Analyzed BSU Hospital  operational sector and built an SQL database to support effective hospital management.
 
 ---
