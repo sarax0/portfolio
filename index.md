@@ -1,3 +1,7 @@
+---
+tab_title: "Portfolio"
+---
+
 ## Skill Set 
 - Python, R, C#
 - SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB
