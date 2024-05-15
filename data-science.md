@@ -1,11 +1,11 @@
-<!--<a href="https://drive.google.com/file/d/19QtbihOl37Er7C6As-RinWgChLZoUmox/view?usp=sharing" target="_blank">View my Resume</a>
-
----
--->
 ---
 title: Data Science
 ---
 
+<!--<a href="https://drive.google.com/file/d/19QtbihOl37Er7C6As-RinWgChLZoUmox/view?usp=sharing" target="_blank">View my Resume</a>
+
+---
+-->
 ## Selected projects in data science, machine learning and NLP
 ---
 
