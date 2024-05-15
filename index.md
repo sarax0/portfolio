@@ -3,12 +3,13 @@
 - SQL, MSBI(SSIS, SSRS, SSAS), PySpark, MongoDB
 - Power BI, Tableau, Microsoft Excel
 - System Analysis, Entity Framework, ASP.NET, SAS Viya
+  
 ---
 
 ## Education
 - Master of Computer Engineering | Data Science and Artificial Intelligence,	Feb 2023 – Feb 2024
    _University of Ottawa_
-- Intensive Code Camp  |  Business Intelligence,	Nov 2022 – Mar 2023
+- Intensive Code Camp | Business Intelligence,	Nov 2022 – Mar 2023
   _Information Technology Institute (ITI)_
 - Bachelor of Computer Science and Artificial Intelligence | Medical Informatics, 	Oct 2018 – Jun 2022
   _Beni Suef University_
@@ -24,7 +25,7 @@
 ## TRAINING
 - Internet Of Things (IOT) Training  | ITI, 15 Sep 2021- 20 Sep 2021, Egypt
 - Beni Suef University (BSU) Hospital System Analysis | Mar 2021 - Jul 2021, Egypt
-_Analyzed BSU Hospital  operational sector and built an SQL database to support effective hospital management._
+<br>Analyzed BSU Hospital  operational sector and built an SQL database to support effective hospital management.
 
 ---
 
