@@ -1,7 +1,7 @@
-<a href="https://drive.google.com/file/d/1PCh9x7s0ldE6P7bPeKNAJUxd1HLyaSKU/view?usp=sharing" target="_blank">View my Resume</a>
+<!--<a href="https://drive.google.com/file/d/1PCh9x7s0ldE6P7bPeKNAJUxd1HLyaSKU/view?usp=sharing" target="_blank">View my Resume</a>
 
 ---
-
+-->
 ## Selected projects in data analysis and data visualization 
 ---
 ### Analyzing Sales Trends and Patterns Using Tableau
@@ -55,3 +55,13 @@ I adeptly handle diverse Multidimensional Expressions (MDX) queries. This lab hi
 [![](https://img.shields.io/badge/MSBI_SSAS-azure?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
 
 [View project on GitHub](https://github.com/sarax0/SSAS-MDX-Sales-Data)
+
+---
+
+### Exploring Bicycle Traffic Patterns: A Time Series Analysis of Seattle's Fremont Bridge Counts
+
+In this project, I explore Seattle's bicycle traffic using Python. By analyzing time series data from the Fremont Bridge bike counter, I uncover trends over various intervals—daily, weekly, monthly, and yearly. 
+
+<img src="https://github.com/sarax0/portfolio/assets/122404545/ed85e4ec-ae70-415d-b03b-f8c495a42d45" alt="Time Series-Fremont Bridge" width= "70%" />
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Kaggle-white?logo=Kaggle)](#) [![](https://img.shields.io/badge/Time_Series-white)](#)  [![](https://img.shields.io/badge/Data_Visualization-white)](#) 
