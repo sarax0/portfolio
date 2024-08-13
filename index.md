@@ -21,8 +21,11 @@ title: Portfolio
 ---
 
 ## Work Experience 
-**NLP Engineer, Wakeb Data, Oct 2023 – Feb 2024**
-- Developed an AI system for text deepfake detection. 
+**Coding Instructor, Part time, iSchool, Jun 2024 – Sep 2024**
+- Instruct coding sessions for kids, lead workshops, and craft student-centered learning experiences, fostering a positive learning environment in the DEMI program with iSchool. 
+
+**NLP Engineer, Internship, Wakeb Data, Oct 2023 – Feb 2024**
+- Led a team in the implementation of an AI system for detecting artificially generated text.
 
 ---
 
