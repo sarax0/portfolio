@@ -10,7 +10,7 @@ title: Data Analysis
 ---
 ### Analyzing Sales Trends and Patterns Using Tableau
 
-I created a comprehensive Tableau dashboard with multiple tabs, enabling in-depth analysis of customer demographics, product profitability, and sales trends. Enhancing data-driven decision-making for revenue growth.
+I built a detailed Tableau dashboard with multiple tabs to analyze customer demographics, product profitability, and sales trends. This dashboard helps users understand key patterns and make informed decisions to drive revenue growth.
 
 <div>
    <img src="assets/img/Overview.png" alt="Description of the image" width="30%">
@@ -27,10 +27,12 @@ I created a comprehensive Tableau dashboard with multiple tabs, enabling in-dept
 
 ### AdventureWorks Sales Insights: Power BI Analysis
 
-In this project I delved into AdventureWorks cycling e-commerce sales data for real-time insights.
+The dashboard provides a clear view of key metrics, including reseller performance, employee sales figures, and product trends. It features real-time data updates and custom visuals to help users dive deeper into sales information. Key elements include a date filter for tracking different time periods, a drillthrough feature for detailed employee insights, and a panel for managing slicers. I also handled binary image data by converting it to Base64, making it easy to display pictures directly in the reports.
+
 <div>
-   <img src="assets/img/Adventureworks_page1.jpg" alt="Description of the image" width="35%">
-   <img src="assets/img/Adventureworks_page2.jpg" alt="Description of the image" width="35%">
+   <img src="assets/img/Adventure-Overview.png" alt="Overview" width="30%">
+   <img src="assets/img/Adventure-employees.png" alt="employees" width="30%">
+   <img src="assets/img/Adventure-sales breakdown.png" alt="sales breakdown" width="30%">
 </div>
 
 [![](https://img.shields.io/badge/PowerBI-white?logo=powerbi)](#) [![](https://img.shields.io/badge/SQL-gray?logo=microsoftsqlserver
@@ -42,7 +44,7 @@ In this project I delved into AdventureWorks cycling e-commerce sales data for r
 
 ### Streamlining ITI Data: SSIS ETL Integration
 
-In this project I engage in diverse SSIS exercises, emphasizing ETL processes to integrate ITI data effectively. This dataset encompasses student records, course details, departmental data, and instructor profiles. 
+In this project, I worked on various SSIS exercises to manage ETL processes and integrate data from ITI. This included handling student records, course information, departmental details, and instructor profiles.
 
 <img src="https://github.com/sarax0/SSIS-ETL-for-ITI-Data/assets/122404545/f247b88f-2058-4bfa-89ed-6322b4f52aa1" alt="SSIS-ITI-DATA" width= "70%" />
 
@@ -54,7 +56,7 @@ In this project I engage in diverse SSIS exercises, emphasizing ETL processes to
 
 ### Sales Insights: Analyzing Data with Microsoft Analysis Services (SSAS)
 
-I adeptly handle diverse Multidimensional Expressions (MDX) queries. This lab highlights my expertise in crafting cubes, dimensions, and MDX queries, enabling precise extraction of insights from sales data.
+In this lab, I worked with Multidimensional Expressions (MDX) queries to build and manage cubes and dimensions. This experience showcases my ability to extract accurate insights from sales data using MDX queries.
 
 [![](https://img.shields.io/badge/MSBI_SSAS-azure?logo=microsoft)](#) [![](https://img.shields.io/badge/VisualStudio-purple?logo=visualstudio)](#)
 
@@ -64,7 +66,7 @@ I adeptly handle diverse Multidimensional Expressions (MDX) queries. This lab hi
 
 ### Exploring Bicycle Traffic Patterns: A Time Series Analysis of Seattle's Fremont Bridge Counts
 
-In this project, I explore Seattle's bicycle traffic using Python. By analyzing time series data from the Fremont Bridge bike counter, I uncover trends over various intervals—daily, weekly, monthly, and yearly. 
+In this project, I analyzed bicycle traffic data from Seattle's Fremont Bridge using Python. I examined time series data to identify trends across different intervals, including daily, weekly, monthly, and yearly.
 
 <img src="https://github.com/sarax0/portfolio/assets/122404545/ed85e4ec-ae70-415d-b03b-f8c495a42d45" alt="Time Series-Fremont Bridge" width= "70%" />
 
