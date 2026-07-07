@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sara Abdelazim — AI &amp; Data Engineer</title>
+<meta name="description" content="Sara Abdelazim — AI & Data Engineer at Telecom Egypt. Master's in Data Science and AI, University of Ottawa. Production LLM systems, log anomaly detection, and data pipelines.">
+<meta property="og:title" content="Sara Abdelazim — AI & Data Engineer">
+<meta property="og:description" content="Production AI for telecom networks: enterprise LLM assistant, transformer-based anomaly detection, and large-scale data pipelines.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sarax0.github.io/portfolio/">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%237a5af5"/><stop offset="1" stop-color="%234f9cf5"/></linearGradient></defs><circle cx="50" cy="50" r="48" fill="url(%23g)"/><text x="50" y="68" font-family="Arial,sans-serif" font-size="52" font-weight="bold" fill="%23ffffff" text-anchor="middle">SA</text></svg>'>
+<script>
+  (function(){
+    var t = localStorage.getItem('theme');
+    if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f5fa; --card:#ffffffb8; --card-solid:#ffffff;
+    --line:#e4e2ef; --line2:#d6d3e8;
+    --text:#22243a; --muted:#5b5e7e; --faint:#8a8ca6;
+    --g1:#7a5af5; --g2:#4f9cf5;
+    --grad:linear-gradient(90deg,#7a5af5,#4f9cf5);
+    --glow1:#d9c9f5; --glow2:#c9e3f5;
+    --chip-bg:#efeafd; --chip-tx:#5b3fd4;
+    --btn-dark:#22243a; --btn-dark-tx:#ffffff;
+    --nav-bg:#f6f5fae6;
+  }
+  [data-theme="dark"]{
+    --bg:#12131f; --card:#1a1c2eb8; --card-solid:#1a1c2e;
+    --line:#2a2c44; --line2:#383a58;
+    --text:#e6e6f2; --muted:#9a9ab8; --faint:#6c6d8f;
+    --g1:#a08df7; --g2:#6db3f7;
+    --grad:linear-gradient(90deg,#a08df7,#6db3f7);
+    --glow1:#4a3a8a55; --glow2:#1f4a7a55;
+    --chip-bg:#2b2650; --chip-tx:#b6a6f9;
+    --btn-dark:#e6e6f2; --btn-dark-tx:#12131f;
+    --nav-bg:#12131fe6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.65;font-size:16px;transition:background .3s,color .3s}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+  .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+  nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .nav-name{font-weight:700;letter-spacing:-.01em}
+  .nav-name b{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .nav-right{display:flex;align-items:center;gap:20px}
+  .nav-links{display:flex;gap:20px;flex-wrap:wrap}
+  .nav-links a{color:var(--muted);font-size:.9rem;font-weight:500}
+  .nav-links a:hover{color:var(--text)}
+  .mode-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line2);background:var(--card);cursor:pointer;font-size:1rem;color:var(--text);display:flex;align-items:center;justify-content:center;transition:.2s}
+  .mode-btn:hover{border-color:var(--g1)}
+
+  header{position:relative;overflow:hidden;padding:96px 0 72px;border-bottom:1px solid var(--line)}
+  .blob{position:absolute;border-radius:50%;pointer-events:none}
+  .blob.b1{top:-120px;right:-80px;width:480px;height:480px;background:radial-gradient(circle,var(--glow1) 0%,transparent 68%)}
+  .blob.b2{bottom:-160px;left:10%;width:520px;height:420px;background:radial-gradient(circle,var(--glow2) 0%,transparent 66%)}
+  .hero{position:relative;display:flex;gap:48px;align-items:center;flex-wrap:wrap}
+  .hero-img{width:150px;height:150px;border-radius:50%;object-fit:cover;padding:3px;background:var(--grad);flex-shrink:0}
+  .pill{display:inline-flex;align-items:center;gap:8px;font-size:.82rem;font-weight:500;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 16px;margin-bottom:16px}
+  .pill .dot{width:8px;height:8px;border-radius:50%;background:var(--g2)}
+  h1{font-size:clamp(2rem,5vw,2.9rem);font-weight:750;letter-spacing:-.025em;line-height:1.12}
+  .hero-role{font-size:1.3rem;font-weight:600;margin-top:8px}
+  .hero-sub{color:var(--muted);max-width:640px;margin-top:16px}
+  .hero-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:10px;font-weight:600;font-size:.9rem;border:1px solid var(--line2);background:var(--card);color:var(--text);transition:.2s}
+  .btn:hover{border-color:var(--g1);transform:translateY(-1px)}
+  .btn.primary{background:var(--btn-dark);color:var(--btn-dark-tx);border-color:transparent}
+
+  section{position:relative;overflow:hidden;padding:72px 0;border-bottom:1px solid var(--line)}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+  .sec-head h2{font-size:1.55rem;font-weight:700;letter-spacing:-.02em}
+  .sec-head .idx{font-size:.85rem;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec-sub{color:var(--muted);margin-bottom:34px;max-width:720px}
+
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:18px;position:relative}
+  @media(max-width:760px){.feat{grid-template-columns:1fr}}
+  .fcard{background:var(--card);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px;padding:26px;transition:.2s}
+  .fcard:hover{border-color:var(--g1);transform:translateY(-2px)}
+  .fcard.big{grid-column:1/-1}
+  .badge-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center}
+  .badge{font-size:.74rem;font-weight:600;padding:4px 12px;border-radius:999px;background:var(--chip-bg);color:var(--chip-tx)}
+  .badge.date{background:none;color:var(--faint);font-weight:500;padding-left:0}
+  .fcard h3{font-size:1.1rem;font-weight:700;margin-bottom:8px;letter-spacing:-.01em}
+  .fcard p{color:var(--muted);font-size:.93rem}
+  .fcard ul{margin:10px 0 0 18px;color:var(--muted);font-size:.93rem}
+  .fcard li{margin-bottom:8px}
+  .fcard li b{color:var(--text);font-weight:600}
+  .tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}
+  .tag{font-size:.74rem;font-weight:500;color:var(--chip-tx);background:var(--chip-bg);border-radius:7px;padding:3px 10px}
+
+  .filters{display:flex;gap:10px;margin-bottom:28px;flex-wrap:wrap;align-items:center}
+  .flabel{font-size:.8rem;font-weight:600;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+  .fbtn{font-family:inherit;font-size:.85rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1px solid var(--line2);background:var(--card);color:var(--muted);cursor:pointer;transition:.2s}
+  .fbtn:hover{border-color:var(--g1);color:var(--text)}
+  .fbtn:active{transform:scale(.97)}
+  .fbtn.active{background:var(--btn-dark);color:var(--btn-dark-tx);border-color:transparent}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+  .pcard{background:var(--card);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;transition:.2s}
+  .pcard:hover{border-color:var(--g1);transform:translateY(-2px)}
+  .pcard h3{font-size:1rem;font-weight:700;margin-bottom:8px}
+  .pcard p{color:var(--muted);font-size:.88rem;flex-grow:1}
+  .pcard .links{margin-top:14px;display:flex;gap:16px;font-size:.85rem;font-weight:600}
+  .pcard .links a{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .pcard .links a:hover{text-decoration:underline;text-decoration-color:var(--g1)}
+
+  .xp{border-left:2px solid var(--line2);padding-left:28px}
+  .xp-item{position:relative;padding-bottom:36px}
+  .xp-item:last-child{padding-bottom:0}
+  .xp-item::before{content:"";position:absolute;left:-35px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--grad)}
+  .xp-head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
+  .xp-head h3{font-size:1.05rem;font-weight:700}
+  .xp-head h3 em{color:var(--muted);font-weight:500;font-style:normal}
+  .xp-date{color:var(--faint);font-size:.82rem;font-weight:500;white-space:nowrap}
+  .xp-item ul{margin:10px 0 0 18px;color:var(--muted);font-size:.92rem}
+  .xp-item li{margin-bottom:7px}
+
+  .skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .scard{background:var(--card);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .scard h3{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .scard .tags{margin-top:0}
+  .scard .tag{color:var(--muted);background:transparent;border:1px solid var(--line2)}
+
+  .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  @media(max-width:760px){.edu-grid{grid-template-columns:1fr}}
+  .edu-item{margin-bottom:22px}
+  .edu-item h3{font-size:.98rem;font-weight:700}
+  .edu-item .inst{color:var(--muted);font-size:.9rem}
+  .edu-item .xp-date{display:block;margin-top:2px}
+  .cert-list{list-style:none}
+  .cert-list li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+  .cert-list li span:first-child b{font-weight:600}
+  .cert-list li span:first-child em{color:var(--muted);font-style:italic}
+  .cert-list .yr{color:var(--faint);font-size:.82rem;font-weight:500}
+
+  footer{position:relative;overflow:hidden;padding:72px 0;text-align:center}
+  footer h2{font-size:1.5rem;font-weight:700;letter-spacing:-.02em;margin-bottom:10px}
+  footer p{color:var(--muted);max-width:540px;margin:0 auto 26px}
+  .foot-note{margin-top:44px;color:var(--faint);font-size:.8rem}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <div class="nav-name">sara<b>.</b>abdelazim</div>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#production">Production AI</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="mode-btn" id="modeToggle" aria-label="Switch color mode">☾</button>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="wrap hero">
+    <img class="hero-img" src="https://sarax0.github.io/portfolio/assets/img/SaraCircleResize.png" alt="Sara Abdelazim">
+    <div>
+      <div class="pill"><span class="dot"></span>Cairo, Egypt · Open to remote worldwide</div>
+      <h1>Sara Abdelazim</h1>
+      <div class="hero-role">AI &amp; Data Engineer — <span class="g">production LLM systems</span> and network intelligence</div>
+      <p class="hero-sub">Master's in Data Science and AI from the University of Ottawa. Recent work: an enterprise
+        knowledge assistant powered by a local LLM, and transformer-based anomaly detection processing millions of
+        network logs — with the data pipelines behind both.</p>
+      <div class="hero-meta">
+        <a class="btn primary" href="#production">View work</a>
+        <a class="btn" href="SaraAbdelazim_CV.pdf" download>Download CV</a>
+        <a class="btn" href="https://www.linkedin.com/in/sara-motamed/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/sarax0" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="production">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">01</span><h2>Production AI — Telecom Egypt</h2></div>
+    <p class="sec-sub">Systems I design and run in production as AI &amp; Data Engineer at Telecom Egypt. The code
+      stays internal to the company, so these are write-ups of the architecture and approach.</p>
+
+    <div class="feat">
+      <div class="fcard big">
+        <div class="badge-row">
+          <span class="badge">Company project</span>
+          <span class="badge date">Nov 2025 – Present</span>
+        </div>
+        <h3>Enterprise Knowledge Assistant — <span class="g">Local LLM</span></h3>
+        <p>An enterprise assistant built on a local LLM, serving senior management and cross-domain teams. I designed
+          the system architecture and resource plan, and implemented retrieval across internal documents, databases,
+          and APIs using a Chroma vector store with hybrid retrieval (BM25 + embeddings + reciprocal rank fusion).</p>
+        <div class="tags">
+          <span class="tag">Local LLM</span><span class="tag">RAG</span><span class="tag">Chroma</span>
+          <span class="tag">BM25 + Embeddings + RRF</span><span class="tag">System Design</span>
+        </div>
+      </div>
+
+      <div class="fcard big">
+        <div class="badge-row">
+          <span class="badge">Company project</span>
+          <span class="badge date">Mar 2025 – Present</span>
+        </div>
+        <h3>Network Log &amp; Alarm Intelligence — <span class="g">SysLogs</span></h3>
+        <p>Multi-component ML project for network fault detection and root-cause analysis, processing millions of log
+          messages ingested from Elasticsearch across network devices scaled from 5 to 12.</p>
+        <ul>
+          <li><b>Log anomaly detection (LogBERT):</b> adapted the open-source LogBERT transformer to telecom log data,
+            developing the full preprocessing pipeline from scratch (Drain3 template parsing into sequential model
+            inputs); introduced PEFT fine-tuning for incremental learning, cutting retraining time on millions of logs.</li>
+          <li><b>Novel log detection (first-time-seen):</b> flags log messages outside the model's training
+            distribution to identify novel fault types early.</li>
+          <li><b>Log–alarm association &amp; co-occurrence:</b> predicts expected logs from alarm occurrences and
+            identifies causal log–alarm relationships within time windows, shortening root-cause identification.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">PyTorch</span><span class="tag">Transformers</span><span class="tag">PEFT</span>
+          <span class="tag">Drain3</span><span class="tag">Elasticsearch</span><span class="tag">Anomaly Detection</span>
+        </div>
+      </div>
+
+      <div class="fcard">
+        <div class="badge-row">
+          <span class="badge">Company project</span>
+          <span class="badge date">Mar – Apr 2026</span>
+        </div>
+        <h3>Router Configuration Standardization — Golden Image</h3>
+        <p>Extracted and consolidated configuration templates from production routers into a standard golden-image
+          configuration applicable across devices, reducing configuration faults and outages.</p>
+        <div class="tags"><span class="tag">Network Automation</span><span class="tag">Configuration Analysis</span></div>
+      </div>
+
+      <div class="fcard">
+        <div class="badge-row">
+          <span class="badge">Company project</span>
+          <span class="badge date">Ongoing</span>
+        </div>
+        <h3>Data Pipelines &amp; Monitoring</h3>
+        <p>Designed and automated ETL and monitoring pipelines with Python, SQL, IBM CP4D, and DataStage, ensuring
+          data integrity across large data volumes.</p>
+        <div class="tags"><span class="tag">IBM CP4D</span><span class="tag">DataStage</span><span class="tag">ETL</span><span class="tag">SQL</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">02</span><h2>Selected Projects</h2></div>
+    <p class="sec-sub">Open work with code — machine learning, NLP, and analytics.</p>
+
+    <div class="filters">
+      <span class="flabel">Filter:</span>
+      <button class="fbtn active" data-f="all" aria-pressed="true">All (9)</button>
+      <button class="fbtn" data-f="ml" aria-pressed="false">AI &amp; ML (4)</button>
+      <button class="fbtn" data-f="bi" aria-pressed="false">Analytics &amp; BI (5)</button>
+    </div>
+
+    <div class="grid">
+      <div class="pcard" data-cat="ml">
+        <h3>Detecting LLM-Generated Text</h3>
+        <p>NLP system for detecting AI-generated text, delivered as a master's graduation project with Wakeb Data.
+          Fine-tuned BERT and RoBERTa for English, AraBERT for Arabic, and mBERT for multilingual detection using
+          PyTorch and Hugging Face.</p>
+        <div class="tags"><span class="tag">PyTorch</span><span class="tag">Hugging Face</span><span class="tag">BERT</span><span class="tag">Streamlit</span></div>
+        <div class="links"><a href="https://github.com/NasserMohamedEid/Text-AI-Detection" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="ml">
+        <h3>Drug Reviews — NLP Sentiment &amp; Classification</h3>
+        <p>Sentiment analysis and drug-category classification over patient reviews: cleaning, tokenization, NER, and
+          lemmatization, with EDA surfacing top conditions and drugs.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">scikit-learn</span></div>
+        <div class="links"><a href="https://github.com/sarax0/drug-review-sentiment-and-category-classification" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="ml">
+        <h3>Clinic No-Show Prediction</h3>
+        <p>SVM and decision-tree models predicting patient no-shows at a medical center to improve appointment
+          scheduling efficiency.</p>
+        <div class="tags"><span class="tag">R</span><span class="tag">SVM</span><span class="tag">Healthcare</span></div>
+        <div class="links"><a href="https://github.com/sarax0/clinic-no-show-prediction" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="ml">
+        <h3>DDoS Attack Detection</h3>
+        <p>EDA over network traffic plus two classifiers — tuned LDA baseline and random forest — for robust DDoS
+          attack detection.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Random Forest</span><span class="tag">Security</span></div>
+        <div class="links"><a href="https://github.com/sarax0/ddos-attack-detection" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="bi">
+        <h3>Tableau Sales Story</h3>
+        <p>Multi-tab Tableau dashboard analyzing customer demographics, product profitability, and sales trends for
+          Adventure Works Cycles.</p>
+        <div class="tags"><span class="tag">Tableau</span><span class="tag">Data Viz</span></div>
+        <div class="links">
+          <a href="https://public.tableau.com/views/InternetSales2019Tableua/InternetSales" target="_blank" rel="noopener">Live dashboard →</a>
+          <a href="https://github.com/sarax0/sales-analysis-tableau" target="_blank" rel="noopener">Code →</a>
+        </div>
+      </div>
+
+      <div class="pcard" data-cat="bi">
+        <h3>AdventureWorks Power BI Analysis</h3>
+        <p>Interactive dashboard covering reseller performance, employee sales, and product trends — drillthrough
+          pages, date filters, and Base64 image handling for in-report visuals.</p>
+        <div class="tags"><span class="tag">Power BI</span><span class="tag">SQL</span></div>
+        <div class="links"><a href="https://github.com/sarax0/adventureworks-sales-analysis-powerbi" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="bi">
+        <h3>SSIS ETL for ITI Data</h3>
+        <p>Automated ETL processes integrating student, course, department, and instructor data with SQL Server
+          Integration Services.</p>
+        <div class="tags"><span class="tag">SSIS</span><span class="tag">ETL</span></div>
+        <div class="links"><a href="https://github.com/sarax0/SSIS-ETL-for-ITI-Data" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="bi">
+        <h3>SSAS &amp; MDX Sales Cubes</h3>
+        <p>Built and queried multidimensional cubes with MDX to extract sales insights from cubes and dimensions.</p>
+        <div class="tags"><span class="tag">SSAS</span><span class="tag">MDX</span></div>
+        <div class="links"><a href="https://github.com/sarax0/SSAS-MDX-Sales-Data" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+
+      <div class="pcard" data-cat="bi">
+        <h3>Fremont Bridge Time Series</h3>
+        <p>Time-series analysis of Seattle bicycle traffic identifying daily, weekly, monthly, and yearly patterns in
+          Python.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Time Series</span></div>
+        <div class="links"><a href="https://github.com/sarax0/fremont-bridge-time-series-analysis" target="_blank" rel="noopener">Code →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">03</span><h2>Experience</h2></div>
+    <div class="sec-sub"></div>
+    <div class="xp">
+      <div class="xp-item">
+        <div class="xp-head"><h3>AI &amp; Data Engineer <em>· Telecom Egypt</em></h3><span class="xp-date">Nov 2024 – Present</span></div>
+        <ul>
+          <li>Enterprise knowledge assistant on a local LLM with hybrid retrieval — architecture, resource plan, and implementation.</li>
+          <li>SysLogs: transformer-based log anomaly detection, first-time-seen detection, and log–alarm association over millions of Elasticsearch-ingested logs.</li>
+          <li>Router golden-image configuration standardization, reducing faults and outages.</li>
+          <li>ETL and monitoring pipelines on IBM CP4D and DataStage.</li>
+        </ul>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><h3>Data Analysis Instructor <em>· MEC (part time)</em></h3><span class="xp-date">Jan 2025 – Mar 2025</span></div>
+        <ul><li>Taught Python and Excel with applied business examples — data cleaning, reporting, and analysis — designed for participants from non-technical backgrounds.</li></ul>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><h3>Coding Instructor <em>· iSchool (part time)</em></h3><span class="xp-date">Jun 2024 – Sep 2024</span></div>
+        <ul><li>Delivered coding sessions and workshops covering data science fundamentals and application development for the DEMI program.</li></ul>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><h3>AI Engineer, Internship <em>· Wakeb Data</em></h3><span class="xp-date">Oct 2023 – Feb 2024</span></div>
+        <ul>
+          <li>Led a team building an NLP system to detect LLM-generated text, delivered as a master's graduation project.</li>
+          <li>Fine-tuned transformer LLMs with PyTorch: BERT and RoBERTa (English), AraBERT (Arabic), mBERT (multilingual).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">04</span><h2>Skills</h2></div>
+    <div class="sec-sub"></div>
+    <div class="skill-grid">
+      <div class="scard"><h3>GenAI / LLM</h3><div class="tags">
+        <span class="tag">RAG</span><span class="tag">Vector DBs (Chroma)</span><span class="tag">Hybrid Retrieval (BM25 + Embeddings + RRF)</span><span class="tag">PEFT Fine-tuning</span><span class="tag">Hugging Face</span><span class="tag">MCP</span>
+      </div></div>
+      <div class="scard"><h3>Data Science &amp; ML</h3><div class="tags">
+        <span class="tag">PyTorch</span><span class="tag">scikit-learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">Streamlit</span>
+      </div></div>
+      <div class="scard"><h3>Data Engineering</h3><div class="tags">
+        <span class="tag">SQL</span><span class="tag">ETL</span><span class="tag">Elasticsearch</span><span class="tag">IBM CP4D</span><span class="tag">DataStage</span><span class="tag">Watson Studio</span><span class="tag">PySpark</span><span class="tag">MongoDB</span><span class="tag">Data Warehousing</span>
+      </div></div>
+      <div class="scard"><h3>BI &amp; Visualization</h3><div class="tags">
+        <span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Excel</span><span class="tag">MSBI (SSIS · SSRS · SSAS)</span>
+      </div></div>
+      <div class="scard"><h3>Programming</h3><div class="tags">
+        <span class="tag">Python</span><span class="tag">R</span><span class="tag">C#</span>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">05</span><h2>Education &amp; Certifications</h2></div>
+    <div class="sec-sub"></div>
+    <div class="edu-grid">
+      <div>
+        <div class="edu-item">
+          <h3>Professional Master's in Computer Engineering — Data Science &amp; AI</h3>
+          <div class="inst">University of Ottawa (uOttawa)</div>
+          <span class="xp-date">Feb 2023 – Feb 2024</span>
+        </div>
+        <div class="edu-item">
+          <h3>Intensive Code Camp — Business Intelligence</h3>
+          <div class="inst">Information Technology Institute (ITI)</div>
+          <span class="xp-date">Nov 2022 – Mar 2023</span>
+        </div>
+        <div class="edu-item">
+          <h3>Bachelor's in Computer Science &amp; AI — Medical Informatics</h3>
+          <div class="inst">Beni Suef University (BSU)</div>
+          <span class="xp-date">Oct 2018 – Jun 2022</span>
+        </div>
+      </div>
+      <div>
+        <ul class="cert-list">
+          <li><span><b>Market Basket Analysis in Python</b>, <em>DataCamp</em></span><span class="yr">2025</span></li>
+          <li><span><b>Transformer Architecture &amp; Attention Mechanisms</b>, <em>Self-study</em></span><span class="yr">2025</span></li>
+          <li><span><b>Model Context Protocol (MCP)</b>, <em>Self-study</em></span><span class="yr">2025</span></li>
+          <li><span><b>Introduction to AWS</b>, <em>DataCamp</em></span><span class="yr">2024</span></li>
+          <li><span><b>Introduction to PySpark</b>, <em>DataCamp</em></span><span class="yr">2024</span></li>
+          <li><span><b>Natural Language Processing in Python</b>, <em>DataCamp</em></span><span class="yr">2023</span></li>
+          <li><span><b>AI Analyst</b>, <em>IBM</em></span><span class="yr">2023</span></li>
+          <li><span><b>Predictive Analysis</b>, <em>IBM</em></span><span class="yr">2023</span></li>
+          <li><span><b>Big Data</b>, <em>IBM</em></span><span class="yr">2023</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="blob b2" style="left:auto;right:5%;bottom:-200px;"></div>
+  <div class="wrap" style="position:relative;">
+    <h2>Get in <span class="g">touch</span></h2>
+    <p>Open to Data Science, ML, and NLP roles — on-site in Egypt or the Gulf, or fully remote worldwide. Happy to talk production AI, LLM systems, or telecom-scale data problems.</p>
+    <div class="hero-meta" style="justify-content:center">
+      <a class="btn primary" href="mailto:smotamedra@gmail.com">smotamedra@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/sara-motamed/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/sarax0" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="foot-note">© <span id="yr"></span> Sara Abdelazim · Cairo, Egypt</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const toggle = document.getElementById('modeToggle');
+  function syncIcon(){
+    toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀' : '☾';
+  }
+  syncIcon();
+  toggle.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    syncIcon();
+  });
+
+  const btns = document.querySelectorAll('.fbtn');
+  const cards = document.querySelectorAll('.pcard');
+  btns.forEach(b => b.addEventListener('click', () => {
+    btns.forEach(x => { x.classList.remove('active'); x.setAttribute('aria-pressed','false'); });
+    b.classList.add('active'); b.setAttribute('aria-pressed','true');
+    const f = b.dataset.f;
+    cards.forEach(c => { c.style.display = (f === 'all' || c.dataset.cat === f) ? 'flex' : 'none'; });
+  }));
+</script>
+
+</body>
+</html>
